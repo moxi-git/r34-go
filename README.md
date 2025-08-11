@@ -8,6 +8,7 @@ IF you are on arch linux i made an AUR Package btw
 yay -Sy
 yay -S r34-go
 ```
+if you are not using arch linux you can follow these instuctions
 
 1. Download Latest [Release](https://github.com/moxi-git/r34-go/releases)
 
