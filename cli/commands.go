@@ -26,19 +26,19 @@ var (
 
 // RootCmd represents the base command when called without any subcommands
 var RootCmd = &cobra.Command{
-	Use:   "r34downloader",
+	Use:   "r34-go",
 	Short: "Rule34.xxx content downloader",
 	Long: `A CLI tool to download content from rule34.xxx using tags.
 
 Examples:
   # Download 50 images with specific tags
-  r34downloader -t "hu_tao_(genshin_impact)" -q 50 -o "your_path"
+  r34-go -t "hu_tao_(genshin_impact)" -q 50 -o "your_path"
 
   # Download only videos using API method
-  r34downloader -t "animated" -q 20 --videos --no-images --no-gifs --api
+  r34-go -t "animated" -q 20 --videos --no-images --no-gifs --api
 
   # Download everything (images, gifs, videos) using HTML parsing
-  r34downloader -t "furina_(genshin_impact)" -q 100 --no-api`,
+  r34-go -t "furina_(genshin_impact)" -q 100 --no-api`,
 	Run: runDownload,
 }
 
