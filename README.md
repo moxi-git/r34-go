@@ -3,6 +3,12 @@ a Rule34 CLI downloader written in go
 
 ### Instalation
 
+IF you are on arch linux i made an AUR Package btw
+```bash
+yay -Sy
+yay -S r34-go
+```
+
 1. Download Latest [Release](https://github.com/moxi-git/r34-go/releases)
 
 2. Extract it
