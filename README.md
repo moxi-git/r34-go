@@ -7,6 +7,7 @@ IF you are on arch linux i made an AUR Package btw
 ```bash
 yay -Sy
 yay -S r34-go
+r34-go -h
 ```
 if you are not using arch linux you can follow these instuctions
 
