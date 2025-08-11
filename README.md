@@ -51,6 +51,25 @@ Flags:
 Use "r34downloader [command] --help" for more information about a command.
 ```
 
+### Building 
+**Windows (powershell)**
+```powershell
+$env:CGO_ENABLED = "0"
+$env:GOOS = "windows"
+$env:GOARCH = "amd64"
+go build -o r34downloader.exe
+```
+
+**Building on Windows for linux **
+```powershell
+$env:CGO_ENABLED="0"; $env:GOOS="linux"; $env:GOARCH="amd64"; go build -o r34downloader_linux
+```
+
+**Linux (bash)**
+```bash
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o r34downloader_linux
+```
+
 ### License
 This project is under [MIT License](https://github.com/moxi-git/r34-go/blob/main/LICENSE)
 
