@@ -10,24 +10,24 @@ a Rule34 CLI downloader written in go
 3. run it
    * **on linux**
    ```bash
-   ./r34downloader_linux
+   ./r34_go_linux
    ```
 
    * **on windows**
      
      pwsh
    ```powershell
-   ./r34downloader.exe
+   ./r34_go.exe
    ```
    or in cmd
    ```cmd
-   .\r34downloader.exe
+   .\r34_go.exe
    ```
 ### Usage
 ```
 Usage:
-  r34downloader [flags]
-  r34downloader [command]
+  r34-go [flags]
+  r34-go [command]
 
 Available Commands:
   check       Check if content exists for given tags
@@ -38,7 +38,7 @@ Available Commands:
 Flags:
   -a, --api               Use API method (faster) instead of HTML parsing (default true)
       --gifs              Download GIFs (default true)
-  -h, --help              help for r34downloader
+  -h, --help              help for r34-go
       --images            Download images (default true)
       --no-gifs           Don't download GIFs
       --no-images         Don't download images
@@ -48,7 +48,7 @@ Flags:
   -t, --tags string       Tags to search for (required)
       --videos            Download videos (default true)
 
-Use "r34downloader [command] --help" for more information about a command.
+Use "r34-go [command] --help" for more information about a command.
 ```
 
 ### Building 
@@ -57,17 +57,17 @@ Use "r34downloader [command] --help" for more information about a command.
 $env:CGO_ENABLED = "0"
 $env:GOOS = "windows"
 $env:GOARCH = "amd64"
-go build -o r34downloader.exe
+go build -o r34_go.exe
 ```
 
 **Building on Windows for linux **
 ```powershell
-$env:CGO_ENABLED="0"; $env:GOOS="linux"; $env:GOARCH="amd64"; go build -o r34downloader_linux
+$env:CGO_ENABLED="0"; $env:GOOS="linux"; $env:GOARCH="amd64"; go build -o r34_go_linux
 ```
 
 **Linux (bash)**
 ```bash
-CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o r34downloader_linux
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o r34_go_linux
 ```
 
 ### License
