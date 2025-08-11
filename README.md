@@ -9,6 +9,10 @@ yay -Sy
 yay -S r34-go
 r34-go -h
 ```
+to update
+```bash
+yay -Syua
+```
 if you are not using arch linux you can follow these instuctions
 
 1. Download Latest [Release](https://github.com/moxi-git/r34-go/releases)
