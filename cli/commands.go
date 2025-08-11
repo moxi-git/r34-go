@@ -32,13 +32,13 @@ var RootCmd = &cobra.Command{
 
 Examples:
   # Download 50 images with specific tags
-  r34downloader -t "cat_girl solo" -q 50 -o ./my_downloads
+  r34downloader -t "hu_tao_(genshin_impact)" -q 50 -o "your_path"
 
   # Download only videos using API method
   r34downloader -t "animated" -q 20 --videos --no-images --no-gifs --api
 
   # Download everything (images, gifs, videos) using HTML parsing
-  r34downloader -t "pokemon" -q 100 --no-api`,
+  r34downloader -t "furina_(genshin_impact)" -q 100 --no-api`,
 	Run: runDownload,
 }
 
