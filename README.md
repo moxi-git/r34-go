@@ -18,18 +18,18 @@ if you are not using arch linux you can follow these instuctions
 3. run it
    * **on linux**
    ```bash
-   ./r34_go_linux
+   ./r34-go-linux
    ```
 
    * **on windows**
      
      pwsh
    ```powershell
-   ./r34_go.exe
+   ./r34-go.exe
    ```
    or in cmd
    ```cmd
-   .\r34_go.exe
+   .\r34-go.exe
    ```
 ### Usage
 ```
@@ -65,17 +65,17 @@ Use "r34-go [command] --help" for more information about a command.
 $env:CGO_ENABLED = "0"
 $env:GOOS = "windows"
 $env:GOARCH = "amd64"
-go build -o r34_go.exe
+go build -o r34-go.exe
 ```
 
 **Building on Windows for linux **
 ```powershell
-$env:CGO_ENABLED="0"; $env:GOOS="linux"; $env:GOARCH="amd64"; go build -o r34_go_linux
+$env:CGO_ENABLED="0"; $env:GOOS="linux"; $env:GOARCH="amd64"; go build -o r34-go-linux
 ```
 
 **Linux (bash)**
 ```bash
-CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o r34_go_linux
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o r34-go-linux
 ```
 
 ### License
