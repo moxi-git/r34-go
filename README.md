@@ -3,7 +3,7 @@ a Rule34 CLI downloader written in go
 
 ### Instalation
 
-IF you are on arch linux i made an AUR Package btw
+IF you are on arch linux i made an [AUR Package](https://aur.archlinux.org/packages/r34-go) btw
 ```bash
 yay -Sy
 yay -S r34-go
