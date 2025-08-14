@@ -72,7 +72,7 @@ $env:GOARCH = "amd64"
 go build -o r34-go.exe
 ```
 
-**Building on Windows for linux **
+**Building on Windows for linux**
 ```powershell
 $env:CGO_ENABLED="0"; $env:GOOS="linux"; $env:GOARCH="amd64"; go build -o r34-go-linux
 ```
