@@ -79,7 +79,7 @@ $env:CGO_ENABLED="0"; $env:GOOS="linux"; $env:GOARCH="amd64"; go build -o r34-go
 
 **Linux (bash)**
 ```bash
-CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o r34-go-linux
+bash CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o r34-go-linux
 ```
 
 ### License
